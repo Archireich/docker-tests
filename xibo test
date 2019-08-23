@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Xibo</Name>
+<Beta>False</Beta>
+<Project>https://xibo.org.uk//</Project>
+<Changes>
+[center][img width='300px' src='https://imgur.com/t/gaming/HPcSWAl'][/center]
+
+[center][font size=5]Xibo Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
+<Category>Downloaders:</Category>
+<Overview>Xibo is an open-source digital signage CMS.</Overview>
+<Support>none for now</Support>
+<Description>Xibo is an open-source digital signage CMS. [br]Volume mappings are /config for the Xibo run files.</Description>
+<Registry>https://github.com/Archireich/docker-tests/new/master</Registry>
+<Repository>archireich/xibo</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>host</Mode>
+<Publish>
+<Port>
+<HostPort>10001</HostPort>
+<ContainerPort>10001</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>10002</HostPort>
+<ContainerPort>10002</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>10003</HostPort>
+<ContainerPort>10003</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>10004</HostPort>
+<ContainerPort>10004</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/media</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:10003]/</WebUI>
+<Banner>https://imgur.com/gallery/8hJcuzb</Banner>
+<Icon>https://imgur.com/gallery/8hJcuzb</Icon>
+</Container>
