@@ -13,7 +13,7 @@
 <Overview>Xibo is an open-source digital signage CMS.</Overview>
 <Support>none for now</Support>
 <Description>Xibo is an open-source digital signage CMS. [br]Volume mappings are /config for the Xibo run files.</Description>
-<Registry>https://github.com/Archireich/docker-tests/new/master</Registry>
+<Registry>https://github.com/Archireich/docker-tests/blob/master/xibo%20test</Registry>
 <Repository>archireich/xibo</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
